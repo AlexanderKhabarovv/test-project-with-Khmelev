@@ -171,3 +171,24 @@
 
   text-align: center;
 }
+
+.main-search__text{
+  text-align: center;
+  padding-top: 40px;
+  margin-bottom: 52px;
+}
+.search-text{
+  color: #333333;
+}
+.search-header{
+  width: 568px;
+
+  
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+
+  background-color: #766357;
+  color: #fff;
+}
