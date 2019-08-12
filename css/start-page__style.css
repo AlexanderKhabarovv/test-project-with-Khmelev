@@ -49,8 +49,8 @@
   color:#000;
 }
 .navigation-item{
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 60px;
+  padding-right: 60px;
 }
 .item-logo{
   height: 100%;
@@ -122,16 +122,15 @@
   width:800px;
 }
 .item-type1{
-  width: 315px;
-  padding-left: 35px;
-  padding-right: 35px;
+  padding-left: 59px;
+  padding-right: 59px;
 }
 .item-type2{
   background-color:#EEEEEE;
   color:#000;
-  padding-left: 74px;
-  padding-right: 74px;
-  padding-bottom: 60px;
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-bottom: 43px;
 }
 .item-image{
   background-color: #fff;
@@ -182,8 +181,6 @@
 }
 .search-header{
   width: 568px;
-
-  
   margin: auto;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -191,4 +188,66 @@
 
   background-color: #766357;
   color: #fff;
+}
+.search-wrapper{
+  display:flex;
+  justify-content: center;
+
+  background-image: url(../img/background-search__map.png);
+  max-width: 1200px;
+  height: 594px;
+  margin: auto;
+}
+.appointment-form{
+  width: 568px;
+  height: 450px;
+
+  padding-top: 69px;
+  padding-left: 55px;
+  box-sizing: border-box;
+
+  font-weight: 700;
+  background-color: #fff;
+}
+.appointment-item{
+  padding-bottom: 30px;
+}
+
+.appointment-form input{
+  width: 330px;
+  height: 38px;
+
+  font-weight: 700;
+  color: #000;
+
+  border:none;
+  background-color: #f2f2f2;
+}
+
+.appointment-button{
+  width: 458px;
+  height: 58px;
+
+  
+
+  font-weight: 700;
+  color:#fff;
+  border: none;
+  background-color: #81b3d2;  
+}
+#appointment-date__arrival{
+  margin-left: 21px;
+  padding-left: 13px;
+}
+#appointment-date__departure{
+  margin-left: 17px;
+  padding-left: 13px;
+}
+#appointment-adult{
+  margin-left: 37px;
+  padding-left: 13px;
+}
+#appointment-children{
+  margin-left: 71px;
+  padding-left: 13px;
 }
