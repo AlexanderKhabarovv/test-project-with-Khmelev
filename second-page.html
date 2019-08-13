@@ -25,49 +25,75 @@
             </nav>
     </header>
 
-    <main class="main-container">
-        <p>Инфраструктура:</p>
-        <form class="form-infrastructure">
-            <input type="checkbox"  name="name" id="input-pull">
-                <label for="input-pull">Бассейн</label>
-            <input type="checkbox"  name="name" id="input-parking">
-                <label for="input-parking">Парковка</label>
-            <input type="checkbox"  name="name" id="input-wifi">
-                <label for="input-wifi">Wi-Fi</label>
-        </form>
+<main class="main-container">
+    <section class="infrastructure">
 
-        <p>Тип жилья:</p>
-        <form class="form-house">
+    <div class="infrastructure-item item1">
+            <h3>Инфраструктура:</h3>
+        <form class="form-infrastructure" action="#" method="post" >
+            <div class="input-infrastructure">
+                <input type="checkbox"  name="name" id="input-pull">
+                    <label for="input-pull">Бассейн</label>
+            </div>
+            <div class="input-infrastructure">
+                <input type="checkbox"  name="name" id="input-parking">
+                    <label for="input-parking">Парковка</label>
+            </div>
+            <div class="input-infrastructure">
+                <input type="checkbox"  name="name" id="input-wifi">
+                    <label for="input-wifi">Wi-Fi</label>
+            </div>
+        </form>
+    </div>
+
+    <div class="infrastructure-item item2">
+            <h3>Тип жилья:</h3>
+        <form class="form-house" action="#" method="post">
+            <div class="input-infrastructure">
                 <input type="checkbox"  name="name" id="input-hotel">
                     <label for="input-hotel">Гостиница</label>
+            </div>
+            <div class="input-infrastructure">
                 <input type="checkbox"  name="name" id="input-motel">
                     <label for="input-motel">Мотель</label>
+            </div>
+            <div class="input-infrastructure">
                 <input type="checkbox"  name="name" id="input-apartments">
                     <label for="input-apartments">Апартаменты</label>
-            </form>
+            </div>
+        </form>
+    </div>
 
-        <p>Стоимость в сутки (Р):</p>
-        <form class="form-cost">
-            <div class="from-and-to">От 0  До 3000</div>
-            <p><input class="cost-range" type="range" name="radio"></p>
-            <button class="cost-view" type="submit">
+    <div class="infrastructure-item item3">
+            <h3>Стоимость в сутки (Р):</h3>
+        <form class="form-cost" action="#" method="post">
+            <div class="from-and-to">
+                От 0  До 3000
+            </div>
+            <div class="input-infrastructure">
+                <input class="input-cost__range" type="range" name="radio">
+            </div>
+            <button class="button-cost__view" type="submit">
                 Показать
             </button>
         </form>
-
+    </div>
+    </section>
 
     <section class="products-category">
         <div class="category-header">
             <h2 class="visually-hidden">Поиск вариантов</h2>
-                <h3>Найдено: 3</h3>
+                <h3 class="category-search">Найдено: 3</h3>
                     <h4>СОРТИРОВКА:</h4>
             <ul class="category-list">
-                <li class="category-item">ПО ЦЕНЕ</li>
-                <li class="category-item">ПО ТИПУ</li>
-                <li class="category-item">ПО РЕЙТИНГУ</li>
+                <li class="category-item"><a href="#">ПО ЦЕНЕ</a></li>
+                <li class="category-item"><a href="#">ПО ТИПУ</a></li>
+                <li class="category-item"><a href="#">ПО РЕЙТИНГУ</a></li>
             </ul>
+            <div class="button-sorting">
                 <img src="./img/second-page/arrow-top.png" alt="">
                 <img src="./img/second-page/arrow-bottom.png" alt="">
+            </div>
         </div>
 <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
         <div>
@@ -113,7 +139,8 @@
                 </div>
  <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
             </section>
-            
+        </main>
+
             <footer class="main-footer">
                     <div class="footer-hashtag">
                         #VESTSEDONA
@@ -134,8 +161,5 @@
                     </div>
                          <img src="./img/copyright.png" alt="HTML ACADEMY LOGO">
                 </footer>
-
-    </main>
-    
 </body>
 </html>
