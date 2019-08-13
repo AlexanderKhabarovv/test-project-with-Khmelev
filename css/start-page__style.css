@@ -251,3 +251,26 @@
   margin-left: 71px;
   padding-left: 13px;
 }
+.main-footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 36px;
+  padding-bottom: 20px;
+}
+.footer-social__list{
+  display: flex;
+}
+.footer-social__item{
+ margin-left: 5px;
+ margin-right: 5px;
+}
+.footer-hashtag{
+  font-weight: 700;
+  margin-right: 250px;
+}
+.footer-copyright{
+  margin-left: 230px;
+  margin-right: 10px;
+}
