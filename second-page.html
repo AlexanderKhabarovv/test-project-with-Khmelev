@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=cyrillic">
+    <link rel="stylesheet" href="./css/second-page__style.css">
+    <title>Sedona</title>
+</head>
+<body>
+    <header class="main-header">
+            <nav class="main-navigation">
+                <h2 class="visually-hidden">Шапка сайта</h2>
+                <ul class="navigation-list">
+                    <li class="navigation-item"><a href="#"> Информация</a></li>
+                    <li class="navigation-item"><a href="#"> Фото и Видео</a></li>
+                    <li class="navigation-item item-logo">
+                        <img src="./img/header-logo.svg" alt="city of sedona">
+                    </li>
+                    <li class="navigation-item"><a href="#"> Карта штата</a></li>
+                    <li class="navigation-item item-position" ><a href="#">Гостиницы</a></li>
+                </ul>
+            </nav>
+    </header>
+
+    <main class="main-container">
+        <p>Инфраструктура:</p>
+        <form class="form-infrastructure">
+            <input type="checkbox"  name="name" id="input-pull">
+                <label for="input-pull">Бассейн</label>
+            <input type="checkbox"  name="name" id="input-parking">
+                <label for="input-parking">Парковка</label>
+            <input type="checkbox"  name="name" id="input-wifi">
+                <label for="input-wifi">Wi-Fi</label>
+        </form>
+
+        <p>Тип жилья:</p>
+        <form class="form-house">
+                <input type="checkbox"  name="name" id="input-hotel">
+                    <label for="input-hotel">Гостиница</label>
+                <input type="checkbox"  name="name" id="input-motel">
+                    <label for="input-motel">Мотель</label>
+                <input type="checkbox"  name="name" id="input-apartments">
+                    <label for="input-apartments">Апартаменты</label>
+            </form>
+
+        <p>Стоимость в сутки (Р):</p>
+        <form class="form-cost">
+            <div class="from-and-to">От 0  До 3000</div>
+            <p><input class="cost-range" type="range" name="radio"></p>
+            <button class="cost-view" type="submit">
+                Показать
+            </button>
+        </form>
+
+
+    <section class="products-category">
+        <div class="category-header">
+            <h2 class="visually-hidden">Поиск вариантов</h2>
+                <h3>Найдено: 3</h3>
+                    <h4>СОРТИРОВКА:</h4>
+            <ul class="category-list">
+                <li class="category-item">ПО ЦЕНЕ</li>
+                <li class="category-item">ПО ТИПУ</li>
+                <li class="category-item">ПО РЕЙТИНГУ</li>
+            </ul>
+                <img src="./img/second-page/arrow-top.png" alt="">
+                <img src="./img/second-page/arrow-bottom.png" alt="">
+        </div>
+<!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+        <div>
+            <img src="./img/second-page/sorting-image1.png" alt="Amara Resort & Spa">
+            <h2 class="house-name">Amara Resort & Spa</h2>
+
+        <p class="house-type">Гостиница</p>
+            <button class="button-details" type="submit">
+            Подробнее
+            </button>
+        <p class="house-cost">От 4000 Р.</p>
+            <button class="button-reservation" type="submit">
+            Забронировать
+            </button>
+        </div>
+        
+            <div>
+                <img src="./img/second-page/sorting-image2.png" alt="Amara Resort & Spa">
+                <h2 class="house-name">Amara Resort & Spa</h2>
+    
+            <p class="house-type">Мотель</p>
+                <button class="button-details" type="submit">
+                Подробнее
+                </button>
+            <p class="house-cost">От 3000 Р.</p>
+                <button class="button-reservation" type="submit">
+                Забронировать
+                </button>
+            </div>
+
+                <div>
+                    <img src="./img/second-page/sorting-image3.png" alt="Amara Resort & Spa">
+                    <h2 class="house-name">Amara Resort & Spa</h2>
+        
+                <p class="house-type">Апартаменты</p>
+                    <button class="button-details" type="submit">
+                    Подробнее
+                    </button>
+                <p class="house-cost">От 2000 Р.</p>
+                    <button class="button-reservation" type="submit">
+                    Забронировать
+                    </button>
+                </div>
+ <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+            </section>
+            
+            <footer class="main-footer">
+                    <div class="footer-hashtag">
+                        #VESTSEDONA
+                    </div>
+                    <ul class="footer-social__list">
+                        <li class="footer-social__item">
+                            <a href="#" aria-label="Твитер"><img src="./img/twitter.png" alt="twitter"></a>
+                        </li>   
+                        <li class="footer-social__item">
+                            <a href="#" aria-label="Фейсбук"><img src="./img/facebook.png" alt="facebook"></a>
+                        </li>  
+                        <li class="footer-social__item">
+                            <a href="#" aria-label="Ютуб"><img src="./img/youtube.png" alt="youtube"></a>
+                        </li>   
+                    </ul>
+                    <div class="footer-copyright">
+                        WEBSITE BY 
+                    </div>
+                         <img src="./img/copyright.png" alt="HTML ACADEMY LOGO">
+                </footer>
+
+    </main>
+    
+</body>
+</html>

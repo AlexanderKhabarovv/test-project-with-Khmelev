@@ -28,6 +28,9 @@
   a{
     text-decoration: none;
   }
+
+  /*HEADER*/
+
 .main-navigation{
   font-weight: 700; 
   background-color: #fff;
@@ -80,8 +83,6 @@
 .main-decoration img{
   display: block;
   margin: auto;
-
-  
 }
 /*intro-item*/
 .advantage{
@@ -159,15 +160,11 @@
 }
 .feature-list{
   display: flex;
-  
   justify-content: center;
-
   padding: 0;
-
 }
 .feature-item{
   padding: 60px 50px 87px 50px;
-
   text-align: center;
 }
 
@@ -228,8 +225,6 @@
   width: 458px;
   height: 58px;
 
-  
-
   font-weight: 700;
   color:#fff;
   border: none;
@@ -251,6 +246,9 @@
   margin-left: 71px;
   padding-left: 13px;
 }
+
+/* FOOTER!!!!*/
+
 .main-footer{
   display: flex;
   justify-content: center;
@@ -274,3 +272,10 @@
   margin-left: 230px;
   margin-right: 10px;
 }
+.navigation-item a:hover{
+  color: #766357;
+}
+
+
+
+/* SECOND PAGE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!11*/
