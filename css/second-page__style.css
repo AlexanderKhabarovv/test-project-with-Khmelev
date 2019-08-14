@@ -13,7 +13,7 @@
     line-height: 26px;
 
     background-image: url(../img/second-page/second-page__background.png);
-    background-size:100%;
+    
     background-position: top center;
     background-repeat: no-repeat;
   }
@@ -34,36 +34,41 @@
   
     /*HEADER*/
 
-.main-navigation{
-  font-weight: 700; 
-  background-color: #fff;
-
-  padding: 0;
-}
-.navigation-list{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  margin: 0;
-  padding: 0;
-
-  height: 56px;
-}
-.navigation-list a{
-  color:#000;
-}
-.navigation-item{
-  padding-left: 75px;
-  padding-right: 75px;
-}
-.item-logo{
-  height: 100%;
-}
+    .main-navigation{
+      font-weight: 700; 
+      background-color: #fff;
+    
+      padding: 0;
+    }
+    .navigation-list{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    
+      margin: 0;
+      padding: 0;
+    
+      margin-left: -27px;
+      height: 56px;
+    }
+    .navigation-list a{
+      color:#000;
+    }
+    .navigation-item{
+      padding-left: 75px;
+      padding-right: 75px;
+    }
+    .item-logo{
+      height: 100%;
+    }
 .item-position a{
     color:#766357;
 }
 /*MAIN*/
+.main-container{
+  max-width: 1200px;
+  margin: auto;
+}
 .infrastructure{
     display: flex;
     max-width: 1366px;
@@ -101,6 +106,9 @@
     background:transparent;
     text-transform: uppercase;
     color:#fff;
+}
+.button-cost__view:hover{
+  box-shadow: 0px 4px 25px rgba(19, 17, 17, 0.44), 0px 4px 15px rgba(255, 255, 255, 0.40);
 }
 .category-header{
     display: flex;
@@ -202,8 +210,14 @@
   background-color:#81B3D2;
   margin-right: 6px;
 }
+.button-detail:hover{
+  box-shadow: 0px 4px 25px rgba(255, 255, 255, 0.44), 0px 4px 15px rgba(129,179,210, 0.83);
+}
 .button-reservation{
   background-color: #766357;
+}
+.button-reservation:hover{
+  box-shadow: 0px 4px 25px rgba(255, 255, 255, 0.44), 0px 4px 15px rgba(118,99,87, 0.83);
 }
 /* FOOTER!!!!*/
 
@@ -236,5 +250,3 @@
   color: #81b3d2;
   border:none;
 }
-
-

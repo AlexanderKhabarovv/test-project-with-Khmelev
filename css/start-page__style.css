@@ -52,8 +52,8 @@
   color:#000;
 }
 .navigation-item{
-  padding-left: 60px;
-  padding-right: 60px;
+  padding-left: 75px;
+  padding-right: 75px;
 }
 .item-logo{
   height: 100%;
@@ -229,6 +229,9 @@
   color:#fff;
   border: none;
   background-color: #81b3d2;  
+}
+.appointment-button:hover{
+  box-shadow: 0px 4px 25px rgba(255, 255, 255, 0.44), 0px 4px 15px rgba(129,179,210, 0.83);
 }
 #appointment-date__arrival{
   margin-left: 21px;
