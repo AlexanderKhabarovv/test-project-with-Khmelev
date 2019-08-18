@@ -97,6 +97,54 @@
 .input-infrastructure{
     padding-bottom: 34px;
 }
+/*custom*/
+
+.filter-check_checkbox{
+  position: absolute;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.check-box{
+  position: absolute;
+  height: 25px;
+  width:27px;
+  background-image: url(../img/second-page/checkbox-off.png);
+  background-repeat: no-repeat;
+}
+/*checked*/
+.filter-check_checkbox:checked + .check-box{
+  background-image: url(../img/second-page/checkbox-on.png);
+  background-repeat: no-repeat;
+}
+.filter-check_label-text{
+  margin-left:35px;
+}
+/*range button*/
+.input-cost__range{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  height: 2px;
+  width: 248px;
+
+  border:none;
+  outline:none;
+}
+.input-cost__range::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  width: 20px;
+  height: 22px;
+
+  background-color: #fff;
+  border-radius: 12px;
+
+}
+
 .button-cost__view{
     width: 133px;
     height: 32px;
@@ -108,7 +156,8 @@
     color:#fff;
 }
 .button-cost__view:hover{
-  box-shadow: 0px 4px 25px rgba(19, 17, 17, 0.44), 0px 4px 15px rgba(255, 255, 255, 0.40  );
+  background-color: #fff;
+  color:#000;
 }
 .category-header{
     display: flex;
